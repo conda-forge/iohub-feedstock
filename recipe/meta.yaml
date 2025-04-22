@@ -1,13 +1,13 @@
 {% set name = "iohub" %}
-{% set version = "0.1.0.dev5" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/iohub-{{ version }}.tar.gz
-  sha256: e81b7057693173b9e72ccb04d1d3483199d055da6ade9179fef5957e9abcdbf5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/iohub-{{ version }}.tar.gz
+  sha256: 04f42f2520d9201fcbacf1b6e4988b78fceb05f421ff3d55fe2df03c2d02783b
 
 build:
   entry_points:
